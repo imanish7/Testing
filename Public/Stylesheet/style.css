@@ -162,8 +162,13 @@ section {
 }
 #f1>h3{
   font-family: gillroy;
-  font-size: 2.2vw;
+  font-size: 2vw;
   font-weight: 800;
+}
+@media  (max-width:465px) {
+  #f1>h3{
+    font-size: 1rem;
+  }
 }
 #f2{
   height: 20%;
@@ -173,8 +178,13 @@ section {
   text-align: center;
 }
 #f2>p{
-  font-size: 1.5vw;
+  font-size: 1.3vw;
   width: 45%;
+}
+@media  (max-width:465px) {
+  #f2>p{
+    font-size: 0.7rem;
+  }
 }
 #f3{
   height: 25%;
@@ -188,6 +198,14 @@ section {
 }
 #f3>h4{
   font-size: 1vw;
-  white-space: nowrap;
-  
+  white-space: nowrap; 
 }
+@media  (max-width:465px) {
+  #f3>h4{
+    font-size: 0.5  rem;
+  }
+  #f3 img{
+    height: 3rem;
+  }
+}
+
