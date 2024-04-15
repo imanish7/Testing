@@ -202,10 +202,10 @@ section {
 }
 @media  (max-width:465px) {
   #f3>h4{
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
   #f3 img{
-    height: 3rem;
+    height: 2rem;
   }
 }
 
