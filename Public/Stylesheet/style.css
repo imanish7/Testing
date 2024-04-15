@@ -53,7 +53,7 @@ section {
 .box p{
   font-size: 1vw;
   font-weight: 500;
-  width: 50%;
+  width: 60%;
 }
 .box a.boxBtn {
 	padding: 15px 35px;
@@ -88,7 +88,7 @@ section {
 .nav i {
   display: none;
 }
-@media (max-width:376px) {
+@media (max-width:465px) {
   .nav{
     padding: 0% 2%;
   }
@@ -99,13 +99,13 @@ section {
     display: block;
   }
   .box h1{
-    font-size: 3rem;
+    font-size: 4rem;
   } 
   .box h2{
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .box p{
-    font-size: 0.4rem;
+    font-size: 0.6rem;
   }
 }
 
@@ -130,10 +130,15 @@ section {
 }
 .page3>p{
   color: #950b46;
-  font-size: 2vw;
+  font-size: 1.2rem;
   font-weight: 700;
   width: 60%;
   text-align: center;
+}
+@media  (max-width:465px) {
+  .page3>p{
+    font-size: 0.7rem;
+  }
 }
 .colon1{
   padding-bottom: 250px;
