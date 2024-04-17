@@ -9,10 +9,7 @@ html,body {
     width: 100%;
     background-color: #fff7ec;
 }
-.main{
-    height: 100%;
-    width: 100%;
-}
+
 .header {
     height: 20%;
     width: 100%;
@@ -30,7 +27,6 @@ img{
     gap: 50px;
     position: fixed;
     justify-content: start;
-    flex-wrap: wrap;
   }
   .nav a{
     text-transform: uppercase;
@@ -46,6 +42,23 @@ img{
     border-radius: 10px;
     box-shadow: 10px 10px 30px #950b46, -10px -10px 30px #fff7ec;
 }
+@media (max-width:465px) {
+    .nav{
+        height: 10%;
+        width: 100%;
+        padding: 0 4%;
+    }
+    img{
+        height: 4rem;
+    }
+
+    .page1 {
+        height: 100%;
+        width: 100%;
+        margin-left: 0%;
+    }
+
+}
 .text{ 
     height: 30%;
     width: 95%;
@@ -54,22 +67,42 @@ img{
     /* background-color: #950b46; */
 }
 .page1 .text h1{
-    font-size: 1.8rem;
+    font-size: 1.8vw;
     font-weight: bold;
     /* font-family: gillroy; */
     font-weight: 500;
 }
 .page1 .text p{
-    font-size: 1rem;
+    font-size: 1.2vw;
     margin-top: 2%;
     font-family: gillroy;
     font-weight: 400;
 }
 .page1 .text #ins{
-    font-size: 1rem;
+    font-size: 1.2vw;
     font-weight: bold;
     margin-top: 3%;
     font-family: gillroy;
+}
+@media (max-width:450px) {
+    .page1 .text h1{
+        font-size: 1.5rem;
+        font-weight: bold;
+        /* font-family: gillroy; */
+        font-weight: 500;
+    }
+    .page1 .text p{
+        font-size: 0.7rem;
+        margin-top: 2%;
+        font-family: gillroy;
+        font-weight: 400;
+    }
+    .page1 .text #ins{
+        font-size: 0.8rem;
+        font-weight: bold;
+        margin-top: 3%;
+        font-family: gillroy;
+    }    
 }
 .details{
     height: 80%;
