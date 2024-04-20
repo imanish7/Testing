@@ -42,7 +42,7 @@ img{
     border-radius: 10px;
     box-shadow: 10px 10px 30px #950b46, -10px -10px 30px #fff7ec;
 }
-@media (max-width:465px) {
+/* @media (max-width:465px) {
     .nav{
         height: 11%;
         width: 100%;
@@ -57,7 +57,7 @@ img{
         width: 100%;
         margin-left: 0%;
     }
-}
+} */
 @media (max-width:1025px) {
     .nav{
         height: 11%;
