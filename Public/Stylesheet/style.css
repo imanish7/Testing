@@ -88,9 +88,14 @@ section {
 .nav i {
   display: none;
 }
-@media (max-width:825px) {
+@media (max-width:1025px) {
   .nav{
     padding: 0% 2%;
+  }
+}
+@media (max-width:770px) {
+  .nav{
+    padding: 0% 0.9%;
   }
 }
 @media (max-width:465px) {
@@ -189,7 +194,7 @@ z-index: 10;
   object-fit: cover;
   
 }
-@media (max-width:825px) {
+@media (max-width:1025px) {
 
   #about-us img{
     height: 10rem;
@@ -213,7 +218,7 @@ z-index: 10;
   line-height: 25px;
   color: #950b46;
 }
-@media (max-width:825px) {
+@media (max-width:1025px) {
   #about-us-in h3{
     font-size: 2rem;
     font-weight: 800;
@@ -259,7 +264,7 @@ z-index: 10;
   background-image: url(../Media/card3.jpg);
   height: 20vw;
 }
-@media (max-width:825px) {
+@media (max-width:1025px) {
   #cards-container{
     height: 30vh;
   }
@@ -324,7 +329,7 @@ z-index: 10;
   color: #fff7ec;
   font-weight: 750;
 }
-@media (max-width:825px) {
+@media (max-width:1025px) {
   #red-div{
     height: 20vh;
   }
@@ -344,7 +349,7 @@ z-index: 10;
   width: 60%;
   text-align: center;
 }
-@media (max-width:825px) {
+@media (max-width:1025px) {
   .page3{
     height: 50vh;
   }
@@ -379,7 +384,7 @@ z-index: 10;
   font-size: 2vw;
   font-weight: 800;
 }
-@media (max-width:825px) {
+@media (max-width:1025px) {
   .footer{
     height: 30vh;
   }
