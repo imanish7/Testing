@@ -49,7 +49,7 @@ img{
         padding: 0 4%;
     }
     img{
-        height: 4rem;
+        height: 5rem;
     }
 
     .page1 {
@@ -94,50 +94,30 @@ img{
     margin-top: 3%;
     font-family: gillroy;
 }
-@media (max-width:450px) {
-    
-    .page1 .text h1{
-        font-size: 1.5rem;
-        font-weight: bold;
-        /* font-family: gillroy; */
-        font-weight: 500;
-    }
-    .page1 .text p{
-        font-size: 0.7rem;
-        margin-top: 2%;
-        font-family: gillroy;
-        font-weight: 400;
-    }
-    .page1 .text #ins{
-        font-size: 0.8rem;
-        font-weight: bold;
-        margin-top: 3%;
-        font-family: gillroy;
-    }    
-}
+
 @media (max-width:1025px) {
     .text{
         height: 20%;
     }
     .page1 .text h1{
-        font-size: 2rem;
+        font-size: 6vw;
         font-weight: bold;
-        /* font-family: gillroy; */
-        font-weight: 500;
+         font-family: gillroy; 
+         font-weight: 500;
     }
     .page1 .text p{
-        font-size: 1rem;
+        font-size: 2vw;
         margin-top: 2%;
         font-family: gillroy;
         font-weight: 400;
     }
     .page1 .text #ins{
-        font-size: 1rem;
+        font-size: 2vw;
         font-weight: bold;
         margin-top: 3%;
         font-family: gillroy;
     }    
-}
+} 
 .details{
     height: 80%;
     width: 100%;
