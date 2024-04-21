@@ -130,6 +130,14 @@ img{
     margin-top: 1%;
     margin-left: 7%;
 }
+@media (max-width:425px) {
+    .heading1{
+        display: flex;
+        gap: 41%;
+        margin-top: 1%;
+        margin-left: 7%;
+    }
+}
 .container1{
     height: 8%;
     width: 95%;
@@ -150,7 +158,15 @@ img{
     gap: 31%;
     margin-top: 2%;
     margin-left: 7%; 
-   
+}
+@media (max-width:425px) {
+    .heading2{
+        /* background-color: #950b46; */
+        display: flex;
+        gap: 37%;
+        margin-top: 2%;
+        margin-left: 7%; 
+    }
 }
 .container2{
     height: 8%;
@@ -168,6 +184,14 @@ img{
     gap: 42%;
     margin-top: 2%;
     margin-left: 7%;
+}
+@media (max-width:425px) {
+    .heading3{
+        display: flex;
+        gap: 51%;
+        margin-top: 2%;
+        margin-left: 7%;
+    }
 }
 .container3{
     height: 8%;
