@@ -122,6 +122,7 @@ img{
     height: 80%;
     width: 100%;
     /* margin-top: 5%; */
+
     
 }
 .heading1{
@@ -129,13 +130,23 @@ img{
     gap: 37%;
     margin-top: 1%;
     margin-left: 7%;
+    position: relative;
 }
-@media (max-width:425px) {
+@media (max-width:465px) {
     .heading1{
         display: flex;
         gap: 41%;
         margin-top: 1%;
         margin-left: 7%;
+    }
+}
+@media (max-width:380px) {
+    .heading1{
+        /* background-color: #950b46; */
+        display: flex;
+        gap: 37%;
+        margin-top: 2%;
+         
     }
 }
 .container1{
@@ -158,14 +169,24 @@ img{
     gap: 31%;
     margin-top: 2%;
     margin-left: 7%; 
+    position: relative;
 }
-@media (max-width:425px) {
+@media (max-width:465px) {
     .heading2{
         /* background-color: #950b46; */
         display: flex;
         gap: 37%;
         margin-top: 2%;
         margin-left: 7%; 
+    }
+}
+@media (max-width:380px) {
+    .heading2{
+        /* background-color: #950b46; */
+        display: flex;
+        gap: 33%;
+        margin-top: 2%;
+         
     }
 }
 .container2{
@@ -185,12 +206,21 @@ img{
     margin-top: 2%;
     margin-left: 7%;
 }
-@media (max-width:425px) {
+@media (max-width:465px) {
     .heading3{
         display: flex;
         gap: 51%;
         margin-top: 2%;
+        position: relative;
+    }
+}
+@media (max-width:380px) {
+    .heading3{
+        display: flex;
+        gap: 49%;
+        margin-top: 2%;
         margin-left: 7%;
+        position: relative;
     }
 }
 .container3{
@@ -209,6 +239,7 @@ img{
     gap: 37%;
     margin-top: 7%;
     margin-left: 10%;
+    position: relative;
 }
 .container4{
     height: 23%;
