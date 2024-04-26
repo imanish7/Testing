@@ -131,9 +131,14 @@ section {
   text-decoration: none;
 } 
 .page2{
-  min-height: 100vh;
+  height: 100vh;
   width: 100%;
   z-index: 10;
+}
+@media (max-width:465px) {
+  .page2{
+    height: 50%;
+  }
 }
 #scroller{
   /* background-color: red; */
@@ -202,6 +207,14 @@ z-index: 10;
     object-fit: cover;
   }
 }
+@media (max-width:465px) {
+
+  #about-us img{
+    height: 4rem;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+}
 
 #about-us-in{
   width: 50%;
@@ -231,6 +244,20 @@ z-index: 10;
     color: #950b46;
   }
 }
+@media (max-width:465px) {
+  #about-us-in h3{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 10%;
+    color: #950b46;
+  }
+  #about-us-in p{
+    font-size: 0.7rem;
+    line-height: 12px;
+    color: #950b46;
+  }
+}
+
 #cards-container{
   height: 55vh;
   /* background-color: red; */
@@ -250,7 +277,7 @@ z-index: 10;
   background-position: center;
   transition: all ease 0.6s;
   overflow: hidden;
-  flex-wrap: nowrap;
+  /* flex-wrap: wrap; */
 }
 #card1{
   background-image: url(../Media/card1.JPG);
@@ -280,7 +307,11 @@ z-index: 10;
     height: 20vh;
     width: 30vw;
   }
-  
+}
+@media (max-width:465px) {
+  #cards-container{
+    display: none;
+  }
 }
 .overlay{
   height: 100%;
@@ -332,6 +363,14 @@ z-index: 10;
 @media (max-width:1025px) {
   #red-div{
     height: 20vh;
+  }
+}
+@media (max-width:465px) {
+  #red-div{
+    height: 15vh;
+  }
+  #red-div h4{
+    font-size: 0.5rem;
   }
 }
 
@@ -426,10 +465,12 @@ z-index: 10;
 }
 @media  (max-width:465px) {
   #f3>h4{
-    font-size: 0.6rem;
+    font-size: 0.5rem;
+    margin-bottom: 8%;
   }
   #f3 img{
     height: 2rem;
+    margin-bottom: 7%;
   }
 }
 
